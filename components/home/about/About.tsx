@@ -31,7 +31,7 @@ export const About = () => {
               </p>
               <p className={styles.aboutText}>
                 leading software engineering for avionics systems at{" "}
-                <a target="_blank" href="https://www.uoftstar.ca/">
+                <a target="_blank" href="https://uoft-star.github.io/Website/">
                   university of toronto&apos;s amateur rocketry club
                 </a>, developing real-time control algorithms and sensor fusion for VTOL rockets.
               </p>

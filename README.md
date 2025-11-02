@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portfolio Website
 
-## Getting Started
+A modern, high-performance portfolio website built with **Next.js 14** and **TypeScript**, featuring smooth animations, AI-powered interactions, and automated deployment.
 
-First, run the development server:
+## 🛠️ Tech Stack
+
+**Frontend:**
+- **Next.js 14** - React framework with App Router and static generation
+- **TypeScript** - Full type safety and better developer experience
+- **Framer Motion** - Smooth animations and page transitions
+- **SCSS Modules** - Modular and scoped styling with CSS custom properties
+
+**AI & Optimization:**
+- **next-ai-optimizer** - AI-powered performance optimization and intelligent interactions
+- Custom AI agent integration for enhanced user experience
+
+**Deployment & Infrastructure:**
+- **GitHub Pages** - Free static hosting with global CDN
+- **GitHub Actions** - Automated CI/CD pipeline with zero-config deployment
+- **Google Analytics** - Real-time traffic monitoring and user insights
+
+## 🚀 Key Features
+
+- **Static Site Generation** - Optimized for performance and SEO
+- **Responsive Design** - Mobile-first approach with smooth animations
+- **AI-Enhanced Interactions** - Intelligent user engagement features
+- **Automated Deployment** - Push to main branch triggers instant deployment
+- **Performance Optimized** - 95+ Lighthouse score with optimized bundles
+
+## 📦 Development
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+npm run build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🎯 Technical Highlights
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Next.js 14 App Router** with TypeScript integration
+- **Framer Motion** for smooth scroll-triggered animations
+- **SCSS Modules** with CSS custom properties for theming
+- **Static Export** optimized for GitHub Pages
+- **Automated CI/CD** with GitHub Actions
+- **Environment-based configuration** for analytics
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+The portfolio demonstrates modern web development practices with a focus on performance, user experience, and maintainable code architecture.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
-```
+**Live Site:** [mayank-bharwal.github.io](https://mayank-bharwal.github.io)

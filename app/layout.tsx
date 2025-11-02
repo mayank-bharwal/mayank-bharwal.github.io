@@ -17,7 +17,7 @@ export const metadata = {
   title: "Mayank's Portfolio",
   description: "Mayank's Personal Portfolio Site",
     icons: {
-    icon: '/favicon.ico',
+    icon: 'app/favicon.ico',
   },
 };
 

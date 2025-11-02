@@ -89,13 +89,13 @@ const projects = [
       <>
         <p>
           Engineered an automated content pipeline that generates computer science educational content 
-          using OpenAI's API and schedules social media posts. The system creates engaging programming 
+          using OpenAI&apos;s API and schedules social media posts. The system creates engaging programming 
           questions, explanations, and visual content for technical audiences.
         </p>
         <p>
-          Implemented image generation and processing using Python's PIL library to create visually 
+          Implemented image generation and processing using Python&apos;s PIL library to create visually 
           appealing posts with code snippets, diagrams, and educational content. Integrated with 
-          Instagram's API for automated posting and scheduling of generated content.
+          Instagram&apos;s API for automated posting and scheduling of generated content.
         </p>
         <p>
           Developed content curation algorithms that ensure generated questions cover diverse computer 

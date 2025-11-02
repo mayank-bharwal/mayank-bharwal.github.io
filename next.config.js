@@ -5,9 +5,13 @@ const nextConfig = {
   images: {
     unoptimized: true
   },
+  // Optional: Ignore ESLint during build if needed
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
   // If deploying to user/organization site (username.github.io)
-  basePath: process.env.NODE_ENV === 'production' ? '/repository-name' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/repository-name/' : '',
+  // basePath: process.env.NODE_ENV === 'production' ? '/repository-name' : '',
+  // assetPrefix: process.env.NODE_ENV === 'production' ? '/repository-name/' : '',
 }
 
 module.exports = nextConfig

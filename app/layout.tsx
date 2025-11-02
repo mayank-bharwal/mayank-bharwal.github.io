@@ -14,10 +14,10 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "Mayank's Portfolio",
-  description: "Mayank's Personal Portfolio Site",
-    icons: {
-    icon: 'app/favicon.ico',
+  title: "Mayank Bharwal - Portfolio",
+  description: "Computer Science student at University of Toronto specializing in AI and Systems",
+  icons: {
+    icon: '/favicon.ico', // Fixed path - remove 'app/'
   },
 };
 
@@ -28,8 +28,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <GoogleAnalytics />
       <body className={ibm_plex_mono.className}>
+        <GoogleAnalytics /> {/* Moved inside body */}
         <div id="root">
           <AIAgentProvider>
             {children as any}

@@ -1,9 +1,13 @@
-// next.config.js
-const { withAIOptimizer } = require('next-ai-optimizer');
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Your existing Next.js configuration
-};
+  output: 'export',
+  trailingSlash: true,
+  images: {
+    unoptimized: true
+  },
+  // If deploying to user/organization site (username.github.io)
+  basePath: process.env.NODE_ENV === 'production' ? '/repository-name' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/repository-name/' : '',
+}
 
-module.exports = withAIOptimizer(nextConfig);
+module.exports = nextConfig

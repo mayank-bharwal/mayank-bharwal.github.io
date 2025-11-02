@@ -14,8 +14,11 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "Rudy's Portfolio",
-  description: "Rudy's Personal Portfolio Site",
+  title: "Mayank's Portfolio",
+  description: "Mayank's Personal Portfolio Site",
+    icons: {
+    icon: '/favicon.ico',
+  },
 };
 
 export default function RootLayout({
